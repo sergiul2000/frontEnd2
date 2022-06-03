@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityClient">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="889dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Client"
+            android:textColor="@color/purple_200"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/backClient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="back" />
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:ems="10"
+            android:hint="numarul salii de inchiriat"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/ora"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:ems="10"
+            android:hint="ora de inchiriere"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/rezervare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fa rezervare" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
