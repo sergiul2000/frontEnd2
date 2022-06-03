@@ -16,3 +16,6 @@ in care se confirma rezervarea.
 
 Navigarea intre activitati este realizata de butonul de login si butoane de back
 in activitatile secundare.
+
+Am vrut sa aduc datele din backend cu ajutorul claselor din pachetul API, insa nu am 
+am reusit sa le fac sa mearga. Nu am reusit sa aduc cu succes datele din backend
